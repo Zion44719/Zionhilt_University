@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Zionhilt Univesity</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  </head>
+
+  <body>
+    <section class="header">
+      
+      <nav class="navbar">
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+      </nav>
+      <div class="text-box">
+        <h1>World's Biggest University</h1>
+        <p>Shaping the future with leading minds.</p>
+        <a href="about.html" class="hero-btn">Learn More</a>
+      </div>
+    </section>
+
+    <!------------course--------------->
+    <section class="course">
+      <h1>Courses We Offer</h1>
+      <p>We provide different types of courses according to your need.</p>
+
+      <div class="row">
+        <div class="course-col">
+          <h3>Diploma</h3>
+          <p>
+            If you looking for Diploma courses.So we have different types of
+            courses like software development(web development,data
+            science,machine learning),for creative fields (such as content
+            writing,graphic Design,photography),cybersecurity(Bug
+            Bounty,Cryptography,Digital Forensics).
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>Under Graduate Degree</h3>
+          <p>
+            If you looking for UG courses.So we have different types of courses
+            like Engineering(Computer
+            Science,Mechanical,Civil,Electrical),Business
+            (Finance,Marketing,Management,Accouting), Natural Sciences
+            (Biology,Chemistry,Physics).
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>Post Graduation</h3>
+          <p>
+            If you looking for PG courses.So we have different types of courses
+            like Master's Degree (MA,MSc,MBA),Professional Degree (LLB,M.Ed).
+          </p>
+        </div>
+      </div>
+    </section>
+    <!------------campus------------->
+
+    <section class="campus">
+      <h1>Our Global Campus</h1>
+      <p>
+        Our Ford niversity campus is the central location in university, typically
+        consisting of a group of buildings, such as lecture halls, libraries,
+        dormitories, cafeterias, and administrative offices, all set in a
+        park-like setting.They all share the common purpose of providing a space
+        for students to learn and live.
+      </p>
+
+      <div class="row">
+        <div class="campus-col">
+          <img src="london.png" />
+          <div class="layer">
+            <h3>LONDON</h3>
+          </div>
+        </div>
+        <div class="campus-col">
+          <img src="DENVER.png" />
+          <div class="layer">
+            <h3>DENVER</h3>
+          </div>
+        </div>
+        <div class="campus-col">
+          <img src="SYDNEY.png" />
+          <div class="layer">
+            <h3>SYDNEY</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--------------facilities----------->
+
+    <section class="facilities">
+      <h1>Our Facilities</h1>
+      <p>
+        Our University offers a wide range of facilities to support their
+        students, faculty, and staff. These facilities can be broadly
+        categorized into academic, recreational, and support services.
+      </p>
+
+      <div class="row">
+        <div class="facilities-col">
+          <img src="library.png" />
+          <h3>World Class Library</h3>
+          <p>
+            University libraries are typically large and comprehensive, with
+            collections that cover a wide range of subjects.
+          </p>
+        </div>
+        <div class="facilities-col">
+          <img src="basketball.png" />
+          <h3>Largest Play Ground</h3>
+          <p>
+            Playgrounds for younger students might have swings, slides, climbing
+            structures, and sandboxes. Playgrounds for older students might have
+            basketball courts, volleyball courts, frisbee fields, and picnic
+            areas.
+          </p>
+        </div>
+        <div class="facilities-col">
+          <img src="cafeteria.png" />
+          <h3>Tasty and Healthy Food Items</h3>
+          <p>
+            Cafeterias typically have a large dining area with tables and
+            chairs. They may also have a salad bar, a grill, a pizza station,
+            and a dessert station. Some cafeterias may also have a convenience
+            store that sells snacks and drinks.
+          </p>
+        </div>
+      </div>
+    </section>
+
+       <!---------------Javascript for toggle menu--------->
+       <script>
+        var navlinks = document.getElementById("navlinks");
+  
+        function showMenu() {
+          navlinks.style.right = "0";
+        }
+  
+        function hideMenu() {
+          navlinks.style.right = "-200px";
+        }
+      </script>
+    </body>
+  
+    <script
+      src="https://kit.fontawesome.com/a6bbd27fdc.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-----------testimonials----------->
+
+    <section class="testimonials">
+      <h1>What Our Students Says</h1>
+      <p>There are many students that says about our University below</p>
+
+      <div class="row">
+        <div class="testimonial-col">
+          <img src="user1.jpg" />
+          <div>
+            <p>
+              "I never felt like I just a number at this University. The
+              professors were always available to help me, and I made some great
+              friends in my classes."
+            </p>
+            <h3>Amelia</h3>
+            <i class="fa-solid fa-star" style="color: #000000"></i>
+            <i class="fa-solid fa-star" style="color: #000000"></i>
+            <i class="fa-solid fa-star" style="color: #000000"></i>
+            <i class="fa-solid fa-star" style="color: #000000"></i>
+            <i class="fa-regular fa-star" style="color: #000000"></i>
+          </div>
+        </div>
+        <div class="testimonial-col">
+          <img src="user2.jpg" />
+          <div>
+            <p>
+              "This University gave me the skills and confidence I needed to
+              land my dream job."
+            </p>
+            <h3>Arthur Morgan</h3>
+            <i class="fa-solid fa-star" style="color: #000000"></i>
+            <i class="fa-solid fa-star" style="color: #000000"></i>
+            <i class="fa-solid fa-star" style="color: #000000"></i>
+            <i class="fa-solid fa-star" style="color: #000000"></i>
+            <i
+              class="fa-regular fa-star-half-stroke"
+              style="color: #000000"
+            ></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!------------------call to action-------------->
+
+    <section class="cta">
+      <h1>
+        Enroll for our various Online/Offline courses<br />
+        Anywhere From The World
+      </h1>
+      <a href="contact.html" class="hero-btn">CONTACT US</a>
+    </section>
+
+    <!------------------Footer-------------->
+
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Our University stands as a beacon of academic excellence and
+        intellectual exploration. <br />Founded in 1995, our university has a
+        rich history of empowering students to become critical thinkers,
+        responsible citizens, and leaders in their chosen fields.<br />We
+        believe in the transformative power of education, and we are committed
+        to providing a nurturing environment where students can flourish both
+        academically and personally.
+      </p>
+      <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-x-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+      </div>
+    </section>
+
+</html>
